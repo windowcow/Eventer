@@ -14,22 +14,47 @@ struct ContentView: View {
     @Query private var dayItems: [DayItem]
 
     var body: some View {
-        List {
-            ForEach(dayItems) { dayItem in
-                NavigationLink {
-                    DayPage(dayItem: dayItem)
-                } label: {
-                    VStack {
+        NavigationStack {
+            List {
+                ForEach(dayItems) { dayItem in
+                    NavigationLink {
+                        DayPage(dayItem: dayItem)
+                    } label: {
                         HStack {
                             Image(systemName: dayItem.iconSystemName)
-                            Text(dayItem.title)
+                                .font(.title)
+                            VStack {
+                                HStack {
+                                    Text(dayItem.title)
+                                }
+                                
+                                Text(dayItem.date.toString(.date(.medium)))
+                                    .font(.caption)
+                                    .fontWeight(.light)
+                            }
+                            
                         }
-                        
-                        Text(dayItem.date.toString(.date(.medium)))
                     }
                 }
             }
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "plus.circle")
+                            .font(.title)
+                    }
+                }
+            }
+            .navigationTitle(
+                Date.now.formatted(
+                    date: .abbreviated,
+                    time: .omitted
+                )
+            )
         }
+        
     }
 }
 
@@ -39,6 +64,7 @@ struct DayPage: View {
         Form {
             
         }
+        
     }
 }
 #Preview {
