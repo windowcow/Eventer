@@ -9,26 +9,42 @@
 /* Begin PBXBuildFile section */
 		889F31672C0AE02F007A44DE /* EventerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31662C0AE02F007A44DE /* EventerApp.swift */; };
 		889F31692C0AE02F007A44DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31682C0AE02F007A44DE /* ContentView.swift */; };
-		889F316B2C0AE02F007A44DE /* DayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F316A2C0AE02F007A44DE /* DayItem.swift */; };
+		889F316B2C0AE02F007A44DE /* DDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F316A2C0AE02F007A44DE /* DDay.swift */; };
 		889F316D2C0AE031007A44DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889F316C2C0AE031007A44DE /* Assets.xcassets */; };
 		889F31712C0AE031007A44DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889F31702C0AE031007A44DE /* Preview Assets.xcassets */; };
 		889F31782C0AE25B007A44DE /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31772C0AE25B007A44DE /* ColorData.swift */; };
 		889F317B2C0AE293007A44DE /* Color+ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F317A2C0AE293007A44DE /* Color+ColorData.swift */; };
 		889F317E2C0AE32A007A44DE /* DayItem+Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F317D2C0AE32A007A44DE /* DayItem+Samples.swift */; };
 		889F31812C0AE350007A44DE /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 889F31802C0AE350007A44DE /* SwiftDate */; };
+		889F31832C0AE8ED007A44DE /* DayItem+Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31822C0AE8ED007A44DE /* DayItem+Calculation.swift */; };
+		889F31852C0B0011007A44DE /* UserSelectedCalendarUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31842C0B0011007A44DE /* UserSelectedCalendarUnits.swift */; };
+		889F31872C0B0021007A44DE /* DayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31862C0B0021007A44DE /* DayPage.swift */; };
+		889F31892C0B0446007A44DE /* DayItemListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31882C0B0446007A44DE /* DayItemListRow.swift */; };
+		889F318B2C0B15F3007A44DE /* StorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F318A2C0B15F3007A44DE /* StorePage.swift */; };
+		889F318E2C0B198C007A44DE /* OnboardingNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F318D2C0B198B007A44DE /* OnboardingNavigationStack.swift */; };
+		889F31922C0C13E6007A44DE /* SortablePersistentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31912C0C13E6007A44DE /* SortablePersistentModel.swift */; };
+		889F31942C0C18BE007A44DE /* Array+DayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889F31932C0C18BE007A44DE /* Array+DayItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		889F31632C0AE02F007A44DE /* Eventer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889F31662C0AE02F007A44DE /* EventerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventerApp.swift; sourceTree = "<group>"; };
 		889F31682C0AE02F007A44DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		889F316A2C0AE02F007A44DE /* DayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayItem.swift; sourceTree = "<group>"; };
+		889F316A2C0AE02F007A44DE /* DDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDay.swift; sourceTree = "<group>"; };
 		889F316C2C0AE031007A44DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		889F316E2C0AE031007A44DE /* Eventer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eventer.entitlements; sourceTree = "<group>"; };
 		889F31702C0AE031007A44DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		889F31772C0AE25B007A44DE /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		889F317A2C0AE293007A44DE /* Color+ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ColorData.swift"; sourceTree = "<group>"; };
 		889F317D2C0AE32A007A44DE /* DayItem+Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayItem+Samples.swift"; sourceTree = "<group>"; };
+		889F31822C0AE8ED007A44DE /* DayItem+Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayItem+Calculation.swift"; sourceTree = "<group>"; };
+		889F31842C0B0011007A44DE /* UserSelectedCalendarUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectedCalendarUnits.swift; sourceTree = "<group>"; };
+		889F31862C0B0021007A44DE /* DayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPage.swift; sourceTree = "<group>"; };
+		889F31882C0B0446007A44DE /* DayItemListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayItemListRow.swift; sourceTree = "<group>"; };
+		889F318A2C0B15F3007A44DE /* StorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePage.swift; sourceTree = "<group>"; };
+		889F318D2C0B198B007A44DE /* OnboardingNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingNavigationStack.swift; sourceTree = "<group>"; };
+		889F31912C0C13E6007A44DE /* SortablePersistentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortablePersistentModel.swift; sourceTree = "<group>"; };
+		889F31932C0C18BE007A44DE /* Array+DayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+DayItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +80,16 @@
 			children = (
 				889F31662C0AE02F007A44DE /* EventerApp.swift */,
 				889F31682C0AE02F007A44DE /* ContentView.swift */,
+				889F31842C0B0011007A44DE /* UserSelectedCalendarUnits.swift */,
+				889F318C2C0B197D007A44DE /* Onboarding */,
+				889F31862C0B0021007A44DE /* DayPage.swift */,
+				889F318A2C0B15F3007A44DE /* StorePage.swift */,
+				889F31882C0B0446007A44DE /* DayItemListRow.swift */,
+				889F31902C0C13CB007A44DE /* SortablePersistantModel */,
 				889F317C2C0AE31C007A44DE /* Data */,
 				889F31792C0AE287007A44DE /* Color */,
 				889F316C2C0AE031007A44DE /* Assets.xcassets */,
+				889F318F2C0B46AB007A44DE /* New Group */,
 				889F316E2C0AE031007A44DE /* Eventer.entitlements */,
 				889F316F2C0AE031007A44DE /* Preview Content */,
 			);
@@ -93,10 +116,35 @@
 		889F317C2C0AE31C007A44DE /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				889F316A2C0AE02F007A44DE /* DayItem.swift */,
+				889F316A2C0AE02F007A44DE /* DDay.swift */,
+				889F31932C0C18BE007A44DE /* Array+DayItem.swift */,
+				889F31822C0AE8ED007A44DE /* DayItem+Calculation.swift */,
 				889F317D2C0AE32A007A44DE /* DayItem+Samples.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		889F318C2C0B197D007A44DE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				889F318D2C0B198B007A44DE /* OnboardingNavigationStack.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		889F318F2C0B46AB007A44DE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		889F31902C0C13CB007A44DE /* SortablePersistantModel */ = {
+			isa = PBXGroup;
+			children = (
+				889F31912C0C13E6007A44DE /* SortablePersistentModel.swift */,
+			);
+			path = SortablePersistantModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,10 +225,18 @@
 			files = (
 				889F31692C0AE02F007A44DE /* ContentView.swift in Sources */,
 				889F317E2C0AE32A007A44DE /* DayItem+Samples.swift in Sources */,
-				889F316B2C0AE02F007A44DE /* DayItem.swift in Sources */,
+				889F316B2C0AE02F007A44DE /* DDay.swift in Sources */,
+				889F31942C0C18BE007A44DE /* Array+DayItem.swift in Sources */,
+				889F318E2C0B198C007A44DE /* OnboardingNavigationStack.swift in Sources */,
 				889F317B2C0AE293007A44DE /* Color+ColorData.swift in Sources */,
+				889F31892C0B0446007A44DE /* DayItemListRow.swift in Sources */,
 				889F31672C0AE02F007A44DE /* EventerApp.swift in Sources */,
 				889F31782C0AE25B007A44DE /* ColorData.swift in Sources */,
+				889F31872C0B0021007A44DE /* DayPage.swift in Sources */,
+				889F31832C0AE8ED007A44DE /* DayItem+Calculation.swift in Sources */,
+				889F31852C0B0011007A44DE /* UserSelectedCalendarUnits.swift in Sources */,
+				889F318B2C0B15F3007A44DE /* StorePage.swift in Sources */,
+				889F31922C0C13E6007A44DE /* SortablePersistentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

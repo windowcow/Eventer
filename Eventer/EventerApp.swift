@@ -11,14 +11,14 @@ import SwiftData
 @MainActor
 var previewModelContainer: ModelContainer {
     let schema = Schema([
-        DayItem.self,
+        DDay.self,
     ])
     
     let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
 
     let modelContainer = try! ModelContainer(for: schema, configurations: [modelConfiguration])
     
-    for sample in DayItem.samples {
+    for sample in DDay.samples {
         modelContainer.mainContext.insert(sample)
     }
     

@@ -10,7 +10,8 @@ import SwiftData
 import SwiftUI
 
 @Model
-final class DayItem {
+final class DDay {
+    var id: String
     var date: Date
     var title: String
     var iconSystemName: String
@@ -18,6 +19,11 @@ final class DayItem {
     
     var foregroundColorData: ColorData
     var backgroundColorData: ColorData
+    
+    var isAlarmOn: Bool = true
+    
+    // sort
+    var currentIndex: Int = -1
     
     init(
         date: Date = Date.now,
@@ -27,6 +33,7 @@ final class DayItem {
         backgroundColorData: ColorData = Color.white.colorData,
         createdDate: Date
     ) {
+        self.id = UUID().uuidString
         self.date = date
         self.title = title
         self.iconSystemName = iconSystemName
@@ -36,7 +43,11 @@ final class DayItem {
     }
     
     var foregroundColor: Color {
-        foregroundColorData.color
+        get {
+            foregroundColorData.color
+        } set {
+            foregroundColorData = newValue.colorData
+        }
     }
     
     var backgroundColor: Color {
